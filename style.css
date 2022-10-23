@@ -1,0 +1,91 @@
+p
+{
+    color: Blue;
+    font: italic;
+    border: 2cm;
+    text-align: center;
+    font-size: 50px;
+    
+    background-size: contain;
+}
+#inputIQ{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    
+    
+}
+button{
+
+ font-size: 30px;
+}
+
+#i2{
+    text-align: center;
+    font-size: 40px;
+}
+body{
+background-color: black;
+    background-image: url("https://media.istockphoto.com/vectors/back-to-school-doodle-set-linear-icons-vector-id520767588?k=20&m=520767588&s=612x612&w=0&h=HJPK--c4cnuOSlOFhm-6CWTuNG21g_xFmCrGeXuqD9E=");
+}
+input:hover{
+    color: blue;
+    background: yellow;
+    color: red;
+background-color: yellow; 
+
+text-shadow: 10px 10px 10px white;
+border: 5px groove red;
+text-shadow: 5px 5px 2px grey;
+
+}
+button:hover{
+    
+    color: blue;
+    background:green;
+    color: red;
+background-color: orange; 
+
+text-shadow: 10px 10px 10px white;
+border: 5px groove red;
+text-shadow: 5px 5px 2px grey;
+
+}
+#p1{
+    color:green;
+}
+
+.someclass{
+background-color: brown;
+}
+.glow {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  #p2{
+    border: green dotted;
+            background-color: #e60073;
+    height: 500px;
+        width: 50%;
+        overflow: scroll;
+  }
+  #i1
+  {
+    background-color: gold;
+    color: #e60073;
+  }
